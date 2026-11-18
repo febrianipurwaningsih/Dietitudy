@@ -1,0 +1,5 @@
+:HL["/Dietitudy/_next/static/chunks/1f-6o81ngfc2s.css","style"]
+:HL["/Dietitudy/_next/static/chunks/3xr7eno-gvbpo.css","style"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
+0:{"b":"RnGkGxyAZ3NxcDtvZDcUI","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Yellow accent sparkles (top-left, radiating) -->
+  <g stroke="#FFCB47" stroke-width="6.5" stroke-linecap="round">
+    <line x1="22" y1="28" x2="36" y2="42"/>
+    <line x1="16" y1="44" x2="30" y2="58"/>
+    <line x1="28" y1="14" x2="42" y2="28"/>
+  </g>
+  <circle cx="46" cy="20" r="3.5" fill="#FFCB47"/>
+
+  <!-- D shape (fresh green, with hole) -->
+  <path fill-rule="evenodd"
+    d="M48 28 L48 172 L102 172 C156 172 186 140 186 100 C186 60 156 28 102 28 L48 28 Z
+       M82 62 L82 138 L102 138 C136 138 153 120 153 100 C153 80 136 62 102 62 L82 62 Z"
+    fill="#2BAE66"/>
+
+  <!-- D inner highlight (subtle, cute) -->
+  <path d="M52 32 L52 168" stroke="#3DC97E" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Fork (white, tilted, inside D hole) -->
+  <g transform="translate(118 102) rotate(22)" fill="#FFFFFF">
+    <!-- Handle -->
+    <rect x="-4.5" y="-22" width="9" height="52" rx="4.5"/>
+    <!-- Tine base -->
+    <rect x="-14" y="-36" width="28" height="6" rx="3"/>
+    <!-- 4 Tines -->
+    <rect x="-13" y="-52" width="4.5" height="18" rx="2.25"/>
+    <rect x="-6" y="-55" width="4.5" height="21" rx="2.25"/>
+    <rect x="1.5" y="-55" width="4.5" height="21" rx="2.25"/>
+    <rect x="9" y="-52" width="4.5" height="18" rx="2.25"/>
+  </g>
+
+  <!-- Leaf top-right (dark green with vein) -->
+  <g transform="translate(156 20) rotate(32)">
+    <path d="M0 24 Q9 4 30 0 Q36 20 17 32 Q4 30 0 24 Z" fill="#1F8A4C"/>
+    <path d="M4 22 Q13 14 27 3" stroke="#7ED957" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Leaf bottom-left (two-tone: dark green base + light green overlay) -->
+  <g transform="translate(20 140) rotate(-28)">
+    <path d="M0 14 Q20 0 40 11 Q34 30 13 32 Q2 24 0 14 Z" fill="#1F8A4C"/>
+    <path d="M0 14 Q20 0 40 11 Q34 30 13 32 Q2 24 0 14 Z" fill="#A8E6CF" opacity="0.5"/>
+    <path d="M3 16 Q17 9 36 11" stroke="#1F8A4C" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.55"/>
+  </g>
+</svg>

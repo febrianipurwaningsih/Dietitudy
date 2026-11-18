@@ -1,0 +1,7 @@
+:HL["/Dietitudy/_next/static/chunks/1f-6o81ngfc2s.css","style"]
+:HL["/Dietitudy/_next/static/chunks/3xr7eno-gvbpo.css","style"]
+:HL["/Dietitudy/_next/static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Dietitudy/_next/static/media/4686f7842ee651e2-s.p.2zp15__9k16__.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Dietitudy/_next/static/media/d8aeca813a9ab546-s.p.18rizl4rsrl42.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+1:[["children",{"s":"__PAGE__","h":160}]]
+0:{"b":"RnGkGxyAZ3NxcDtvZDcUI","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
