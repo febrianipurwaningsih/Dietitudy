@@ -12,3 +12,10 @@ aside > div[class="border-t border-[#ECE7D7] p-4 space-y-3"] > div[class*="round
 
 /* Modal Traktir (dirender di dalam popup milestone z-40) harus melototi konten halaman (z-45) */
 body:has(div[class*="z-[60]"]) div[class*="bottom-8 right-16"]{z-index:70!important}
+
+/* Panel Kategori Materi: area yang bisa discroll supaya mudah dinavigasi */
+div[class*="p-4 pt-0 space-y-1"]{max-height:65vh;overflow-y:auto;overscroll-behavior:contain;padding-right:6px;scrollbar-width:thin;scrollbar-color:#8FCEA9 transparent}
+@media (min-width:1024px){div[class*="p-4 pt-0 space-y-1"]{max-height:calc(100vh - 150px)}}
+div[class*="p-4 pt-0 space-y-1"]::-webkit-scrollbar{width:6px}
+div[class*="p-4 pt-0 space-y-1"]::-webkit-scrollbar-thumb{background:#8FCEA9;border-radius:999px}
+div[class*="p-4 pt-0 space-y-1"]::-webkit-scrollbar-track{background:transparent}
